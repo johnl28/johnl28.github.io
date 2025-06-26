@@ -1,0 +1,5 @@
+[
+  { "label": "GitHub", "url": "https://github.com/johnl28", "icon": "fab fa-github" },
+  { "label": "LinkedIn", "url": "https://linkedin.com/in/johncriste", "icon": "fab fa-linkedin" },
+  { "label": "Email", "url": "mailto:johncriste28@gmail.com", "icon": "fas fa-envelope" }
+]
