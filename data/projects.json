@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Space Inscript",
+    "description": "Retro game with custom ASCII rendering engine.",
+    "image": "/img/projects/space_inscript.png",
+    "link": "https://github.com/johnl28/space-inscript",
+    "tags": ["Game", "ASCII", "C++"]
+  },
+  {
+    "id": 2,
+    "title": "3D Volcano Simulation",
+    "description": "OpenGL-based terrain simulation written from scratch.",
+    "image": "/img/projects/volkano_gl.png",
+    "link": "https://github.com/johnl28/volkano-gl",
+    "tags": ["C++", "OpenGL", "Simulation"]
+  },
+  {
+    "id": 3,
+    "title": "QManager",
+    "description": "Desktop UI overlay system rendered via Chromium.",
+    "image": "/img/projects/qmanager.png",
+    "link": "https://github.com/johnl28/QManager-CefIntegration",
+    "tags": ["C++", "Chromium", "Windows"]
+  },
+  {
+    "id": 4,
+    "title": "The First Dungeon",
+    "description": "Browser RPG game demo with Pixi.Js and Vue.js.",
+    "image": "/img/projects/first_dungeon.png",
+    "link": "https://github.com/johnl28/rpg",
+    "tags": ["Pixi.js", "Vue.js", "RPG"]
+  },
+  {
+    "id": 5,
+    "title": "Vulkan Playground",
+    "description": "Vulkan-based graphics engine with custom shaders.",
+    "image": "/img/projects/vulkan_pg.png",
+    "link": "https://github.com/johnl28/vulkan-playground",
+    "tags": ["C++", "Vulkan", "Triangle"]
+  },
+  {
+    "id": 6,
+    "title": "Island Scene",
+    "description": "OpenGL tesslation, lighting and vertex animations.",
+    "image": "/img/projects/wave_shader.gif",
+    "link": "https://github.com/johnl28/comp3015-cw1",
+    "tags": ["C", "OpenGL", "Tessellation"]
+  },
+  {
+    "id": 7,
+    "title": "Conway's Game of Life",
+    "description": "Conway's Game of Life in C++ and ASCII.",
+    "image": "/img/projects/game_of_life.gif",
+    "link": "https://github.com/johnl28/game-of-life",
+    "tags": ["C++", "Game of Life", "ASCII"]
+  }
+]
