@@ -1,7 +1,7 @@
 <template>
   <div class="relative w-full overflow-hidden h-[360px] bg-primary p-10 group">
-    <div class="flex whitespace-nowrap">
-      <div v-for="i in 3" :key="i" class="animate-marquee items-stretch group-hover:[animation-play-state:paused]">
+    <div class="flex whitespace-nowrap h-full">
+      <div v-for="i in 2" :key="i" class="animate-marquee items-stretch group-hover:[animation-play-state:paused]">
         <ProjectCard
           v-for="project in projects"
           :key="project.id"
