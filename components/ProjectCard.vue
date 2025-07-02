@@ -1,6 +1,6 @@
 <template>
   <div
-    class="inline-block w-[240px] shrink-0 mx-2 bg-primary/90 text-white rounded-xl shadow-lg p-4 border border-white/10 transition-transform transform hover:scale-[1.03] hover:border-white hover:shadow-2xl hover:cursor-pointer  duration-300"
+    class="inline-block w-[240px] h-full shrink-0 mx-2 bg-primary/90 text-white rounded-xl p-4 border border-white/10 transition-transform transform hover:scale-[1.03] hover:border-white hover:cursor-pointer duration-300"
     @click="OpenProject"
     >
     <img
