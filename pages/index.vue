@@ -1,7 +1,16 @@
 <template>
   <div :class="['min-h-screen transition-colors flex flex-col items-center justify-center relative', 'bg-[#1a1a1a] text-white']">
-    <!-- Social Links (Top Left) -->
-    <div class="absolute top-4 right-4 flex space-x-3 p-5">
+    <!-- Centered Content -->
+    <div class="text-center px-4 opacity-0 translate-y-8 animate-fade-slide-in">
+      <img :src="profileImage" :alt="profile.name" class="w-40 h-40 rounded-full mx-auto mb-6 shadow-xl object-cover border-4 border-black dark:border-white" />
+      <h1 class="text-4xl font-bold mb-3">{{ profile.name }}</h1>
+      <p class="text-lg max-w-2xl mx-auto leading-relaxed text-black dark:text-white">
+        {{ profile.description }}
+      </p>
+    </div>
+    
+<!-- Social Links (Top Left) -->
+    <div class="lg:absolute lg:top-4 lg:right-4 flex space-x-3 p-5 sm:relative sm:top-0 sm:right-0">
       <a
         v-for="(link, index) in socialLinks"
         :key="index"
@@ -21,15 +30,7 @@
      
     </div>
 
-    <!-- Centered Content -->
-    <div class="text-center px-4 opacity-0 translate-y-8 animate-fade-slide-in">
-      <img :src="profileImage" :alt="profile.name" class="w-40 h-40 rounded-full mx-auto mb-6 shadow-xl object-cover border-4 border-black dark:border-white" />
-      <h1 class="text-4xl font-bold mb-3">{{ profile.name }}</h1>
-      <p class="text-lg max-w-2xl mx-auto leading-relaxed text-black dark:text-white">
-        {{ profile.description }}
-      </p>
-    </div>
-    
+
     <!-- Projects Slider -->
     <div class="container">
       <ProjectsSlider></ProjectsSlider>
