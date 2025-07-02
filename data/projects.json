@@ -9,8 +9,8 @@
   },
   {
     "id": 2,
-    "title": "3D Volcano Simulation",
-    "description": "OpenGL-based terrain simulation written from scratch.",
+    "title": "Volkano GL",
+    "description": "OpenGL-based volcano eruption with custom particle system.",
     "image": "/img/projects/volkano_gl.png",
     "link": "https://github.com/johnl28/volkano-gl",
     "tags": ["C++", "OpenGL", "Simulation"]
